@@ -9,6 +9,6 @@ public class Main {
         int[] numberArray = {3,56,1,267,55};
         System.out.println("Originales Array: " + Arrays.toString(numberArray));
         SelectionSort.selectionSort(numberArray);
-
+        BinarySearch.binarySearch();
     }
 }
