@@ -2,6 +2,7 @@ package org.example;
 
 public class BinarySearch {
     public static void binarySearch() {
+        System.out.println("Binary Search:");
         int[] sortedArray = {1, 5, 14, 21, 45, 67, 120}; // Sortiertes Array
         int number = 14; // Zahl, nach der gesucht wird
         int low = 0;     // Untere Grenze

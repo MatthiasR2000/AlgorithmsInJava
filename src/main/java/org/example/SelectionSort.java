@@ -2,6 +2,7 @@ package org.example;
 
 public class SelectionSort {
     public static void selectionSort(int[] array) {
+        System.out.println("Selection Sort:");
         int sizeOfArray = array.length;
         for (int i = 0; i < sizeOfArray - 1; i++) {
             int minIndex = i; // Setze das erste unsortierte Element als vorläufig größtes Element

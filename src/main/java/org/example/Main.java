@@ -10,5 +10,8 @@ public class Main {
         System.out.println("Originales Array: " + Arrays.toString(numberArray));
         SelectionSort.selectionSort(numberArray);
         BinarySearch.binarySearch();
+
+        QuickSort.quicksort(numberArray, 0, numberArray.length - 1);
+        System.out.println("Sortiertes Array Quick Sort: " + Arrays.toString(numberArray));
     }
 }
